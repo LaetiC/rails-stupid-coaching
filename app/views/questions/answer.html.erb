@@ -1,0 +1,13 @@
+<div class="container">
+  <div>
+    <div class="response">
+      <p><%=@question.capitalize %></p>
+      <p>-Question</p>
+    </div>
+    <div class="response">
+      <p class="pink"><%=@answer.capitalize %></p>
+      <p>-Answer</p>
+    </div>
+  </div>
+  <%= link_to "Ask another question", ask_path %>
+</div>

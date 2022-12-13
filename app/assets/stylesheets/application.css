@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+.response {
+  margin-left: 50px;
+  border-left: solid;
+  padding-left: 10px;
+}
+
+
+.pink {
+  background-color: pink;
+  padding: 10px;
+  border: 10px;
+}
+
+.container {
+  margin-left: 50px;
+  border-left: solid;
+  padding-left: 10px;
+}
